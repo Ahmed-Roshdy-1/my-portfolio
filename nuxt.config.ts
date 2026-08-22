@@ -5,6 +5,16 @@ export default defineNuxtConfig({
   },
   modules: ['@nuxtjs/tailwindcss'],
   css: ['~/assets/css/main.css'],
+
+  // ─── EmailJS credentials (public = exposed to client-side) ───────────────
+  runtimeConfig: {
+    public: {
+      emailjsServiceId:  'service_z3uyglp',
+      emailjsTemplateId: 'template_m5qboc7',
+      emailjsPublicKey:  'xcMIJNtIwst0pcSqH',
+    }
+  },
+
   app: {
     head: {
       title: 'Ahmed Roshdy | Frontend Developer',
