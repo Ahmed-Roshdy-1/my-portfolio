@@ -9,9 +9,9 @@ export default defineNuxtConfig({
   // ─── EmailJS credentials (public = exposed to client-side) ───────────────
   runtimeConfig: {
     public: {
-      emailjsServiceId:  'service_z3uyglp',
+      emailjsServiceId: 'service_z3uyglp',
       emailjsTemplateId: 'template_m5qboc7',
-      emailjsPublicKey:  'xcMIJNtIwst0pcSqH',
+      emailjsPublicKey: 'xcMIJNtIwst0pcSqH',
     }
   },
 
