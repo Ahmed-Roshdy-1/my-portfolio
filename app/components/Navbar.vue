@@ -23,7 +23,7 @@ function closeMenu() {
       </div>
 
       <!-- Desktop CTA -->
-      <a href="mailto:ahmed.roshdy.web@gmail.com" class="hidden md:inline-block bg-teal-500 hover:bg-teal-600 text-slate-950 font-semibold px-4 py-2 rounded-lg text-sm transition">
+      <a href="mailto:ahmed.roshdy.web@gmail.com" target="_blank" class="hidden md:inline-block bg-teal-500 hover:bg-teal-600 text-slate-950 font-semibold px-4 py-2 rounded-lg text-sm transition">
         Hire Me
       </a>
 
