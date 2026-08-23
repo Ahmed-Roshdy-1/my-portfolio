@@ -14,10 +14,10 @@
         <a href="#contact" class="bg-teal-500 hover:bg-teal-600 text-slate-950 font-semibold px-5 sm:px-6 py-2.5 sm:py-3 rounded-lg transition text-sm sm:text-base">
           Get in Touch
         </a>
-        <a href="https://github.com/Ahmed-Roshdy-1" target="_blank" class="border border-slate-700 hover:border-slate-500 text-slate-300 px-5 sm:px-6 py-2.5 sm:py-3 rounded-lg flex items-center gap-2 transition text-sm sm:text-base">
+        <a href="https://github.com/Ahmed-Roshdy-1" target="_blank" rel="noopener noreferrer" class="border border-slate-700 hover:border-slate-500 text-slate-300 px-5 sm:px-6 py-2.5 sm:py-3 rounded-lg flex items-center gap-2 transition text-sm sm:text-base">
           <i class="fab fa-github"></i> GitHub
         </a>
-        <a href="https://www.linkedin.com/in/ahmed-roshdy-dev/" target="_blank" class="border border-slate-700 hover:border-slate-500 text-slate-300 px-5 sm:px-6 py-2.5 sm:py-3 rounded-lg flex items-center gap-2 transition text-sm sm:text-base">
+        <a href="https://www.linkedin.com/in/ahmed-roshdy-dev/" target="_blank" rel="noopener noreferrer" class="border border-slate-700 hover:border-slate-500 text-slate-300 px-5 sm:px-6 py-2.5 sm:py-3 rounded-lg flex items-center gap-2 transition text-sm sm:text-base">
           <i class="fab fa-linkedin"></i> LinkedIn
         </a>
       </div>
