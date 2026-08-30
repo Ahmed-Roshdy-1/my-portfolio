@@ -1,3 +1,5 @@
+import { fileURLToPath } from "node:url";
+
 export default defineNuxtConfig({
   compatibilityDate: '2026-08-21',
   future: {
@@ -25,5 +27,8 @@ export default defineNuxtConfig({
         { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css' }
       ]
     }
+  },
+  alias: {
+    '@': fileURLToPath(new URL('./', import.meta.url))
   }
 })

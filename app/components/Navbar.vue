@@ -12,14 +12,14 @@ function closeMenu() {
   <nav class="fixed top-0 left-0 right-0 z-50 bg-slate-900/80 backdrop-blur-md border-b border-slate-800">
     <div class="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
       <!-- Logo -->
-      <a href="#" class="text-xl font-bold text-teal-400">Ahmed Roshdy<span class="text-white">.dev</span></a>
+      <nuxt-link to="/" class="text-xl font-bold text-teal-400">Ahmed Roshdy<span class="text-white">.dev</span></nuxt-link>
 
       <!-- Desktop Nav -->
       <div class="hidden md:flex space-x-8 text-sm font-medium text-slate-300">
-        <a href="#about" class="hover:text-teal-400 transition">About</a>
-        <a href="#experience" class="hover:text-teal-400 transition">Experience</a>
-        <a href="#skills" class="hover:text-teal-400 transition">Skills</a>
-        <a href="#contact" class="hover:text-teal-400 transition">Contact</a>
+        <nuxt-link to="/" class="hover:text-teal-400 transition">About</nuxt-link>
+        <nuxt-link to="/experience" class="hover:text-teal-400 transition">Experience</nuxt-link>
+        <nuxt-link to="/skills" class="hover:text-teal-400 transition">Skills</nuxt-link>
+        <nuxt-link to="/contact" class="hover:text-teal-400 transition">Contact</nuxt-link>
       </div>
 
       <!-- Desktop CTA -->
@@ -44,10 +44,10 @@ function closeMenu() {
       v-show="menuOpen"
       class="md:hidden border-t border-slate-800 bg-slate-900/95 backdrop-blur-md px-6 py-4 flex flex-col gap-4 text-sm font-medium text-slate-300"
     >
-      <a href="#about" @click="closeMenu" class="hover:text-teal-400 transition py-1">About</a>
-      <a href="#experience" @click="closeMenu" class="hover:text-teal-400 transition py-1">Experience</a>
-      <a href="#skills" @click="closeMenu" class="hover:text-teal-400 transition py-1">Skills</a>
-      <a href="#contact" @click="closeMenu" class="hover:text-teal-400 transition py-1">Contact</a>
+      <nuxt-link to="/" @click="closeMenu" class="hover:text-teal-400 transition py-1">About</nuxt-link>
+      <nuxt-link to="/experience" @click="closeMenu" class="hover:text-teal-400 transition py-1">Experience</nuxt-link>
+      <nuxt-link to="/skills" @click="closeMenu" class="hover:text-teal-400 transition py-1">Skills</nuxt-link>
+      <nuxt-link to="/contact" @click="closeMenu" class="hover:text-teal-400 transition py-1">Contact</nuxt-link>
       <a href="mailto:ahmed.roshdy.web@gmail.com" @click="closeMenu" class="inline-block bg-teal-500 hover:bg-teal-600 text-slate-950 font-semibold px-4 py-2 rounded-lg text-center transition">
         Hire Me
       </a>
