@@ -1,7 +1,7 @@
 <template>
-  <div class="min-h-screen flex flex-col justify-between bg-slate-950 text-slate-100 font-sans antialiased selection:bg-teal-500 selection:text-slate-950">
+  <div class="min-h-screen mx-auto flex flex-col justify-between text-slate-100 font-sans antialiased selection:bg-primary selection:text-slate-950">
     <Navbar />
-    <main class="flex-1">
+    <main class="flex-1 max-w-[1400px] mx-auto">
       <slot />
     </main>
     <footer class="py-6 border-t border-slate-900 text-center text-slate-500 text-xs">

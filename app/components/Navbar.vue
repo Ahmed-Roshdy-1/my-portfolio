@@ -9,21 +9,21 @@ function closeMenu() {
 </script>
 
 <template>
-  <nav class="fixed top-0 left-0 right-0 z-50 bg-slate-900/80 backdrop-blur-md border-b border-slate-800">
-    <div class="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
+  <nav class="fixed top-0 left-0 right-0 z-50 bg-app-bg/80 backdrop-blur-md border-b border-slate-800">
+    <div class="max-w-[1400px] mx-auto px-6 h-16 flex items-center justify-between">
       <!-- Logo -->
-      <nuxt-link to="/" class="text-xl font-bold text-teal-400">Ahmed Roshdy<span class="text-white">.dev</span></nuxt-link>
+      <nuxt-link to="/" class="text-xl font-bold text-primary">Ahmed Roshdy<span class="text-white">.dev</span></nuxt-link>
 
       <!-- Desktop Nav -->
       <div class="hidden md:flex space-x-8 text-sm font-medium text-slate-300">
-        <nuxt-link to="/" class="hover:text-teal-400 transition">About</nuxt-link>
-        <nuxt-link to="/experience" class="hover:text-teal-400 transition">Experience</nuxt-link>
-        <nuxt-link to="/skills" class="hover:text-teal-400 transition">Skills</nuxt-link>
-        <nuxt-link to="/contact" class="hover:text-teal-400 transition">Contact</nuxt-link>
+        <nuxt-link to="/" class="hover:text-primary transition">About</nuxt-link>
+        <nuxt-link to="/experience" class="hover:text-primary transition">Experience</nuxt-link>
+        <nuxt-link to="/skills" class="hover:text-primary transition">Skills</nuxt-link>
+        <nuxt-link to="/contact" class="hover:text-primary transition">Contact</nuxt-link>
       </div>
 
       <!-- Desktop CTA -->
-      <a href="mailto:ahmed.roshdy.web@gmail.com" target="_blank" class="hidden md:inline-block bg-teal-500 hover:bg-teal-600 text-slate-950 font-semibold px-4 py-2 rounded-lg text-sm transition">
+      <a href="mailto:ahmed.roshdy.web@gmail.com" target="_blank" class="hidden md:inline-block bg-primary hover:bg-primary text-slate-950 font-semibold px-4 py-2 rounded-lg text-sm transition">
         Hire Me
       </a>
 
@@ -44,11 +44,11 @@ function closeMenu() {
       v-show="menuOpen"
       class="md:hidden border-t border-slate-800 bg-slate-900/95 backdrop-blur-md px-6 py-4 flex flex-col gap-4 text-sm font-medium text-slate-300"
     >
-      <nuxt-link to="/" @click="closeMenu" class="hover:text-teal-400 transition py-1">About</nuxt-link>
-      <nuxt-link to="/experience" @click="closeMenu" class="hover:text-teal-400 transition py-1">Experience</nuxt-link>
-      <nuxt-link to="/skills" @click="closeMenu" class="hover:text-teal-400 transition py-1">Skills</nuxt-link>
-      <nuxt-link to="/contact" @click="closeMenu" class="hover:text-teal-400 transition py-1">Contact</nuxt-link>
-      <a href="mailto:ahmed.roshdy.web@gmail.com" @click="closeMenu" class="inline-block bg-teal-500 hover:bg-teal-600 text-slate-950 font-semibold px-4 py-2 rounded-lg text-center transition">
+      <nuxt-link to="/" @click="closeMenu" class="hover:text-primary transition py-1">About</nuxt-link>
+      <nuxt-link to="/experience" @click="closeMenu" class="hover:text-primary transition py-1">Experience</nuxt-link>
+      <nuxt-link to="/skills" @click="closeMenu" class="hover:text-primary transition py-1">Skills</nuxt-link>
+      <nuxt-link to="/contact" @click="closeMenu" class="hover:text-primary transition py-1">Contact</nuxt-link>
+      <a href="mailto:ahmed.roshdy.web@gmail.com" @click="closeMenu" class="inline-block bg-primary hover:bg-primary text-slate-950 font-semibold px-4 py-2 rounded-lg text-center transition">
         Hire Me
       </a>
     </div>
