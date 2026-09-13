@@ -85,7 +85,7 @@ async function copyPhone() {
 </script>
 
 <template>
-  <section id="contact" class="py-24 px-6 relative overflow-hidden">
+  <section id="contact" class="py-24 px-6 relative overflow-hidden border-t border-slate-800">
     <!-- Background glow -->
     <div class="absolute inset-0 pointer-events-none">
       <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[700px] h-[400px] bg-primary/5 rounded-full blur-3xl"></div>
@@ -102,7 +102,7 @@ async function copyPhone() {
         </p>
       </div>
 
-      <div class="grid grid-cols-1 lg:grid-cols-5 gap-8 items-start">
+      <div class="grid grid-cols-1 lg:grid-cols-5 gap-18 items-start">
 
         <!-- Contact Info Card -->
         <div class="lg:col-span-2 space-y-4">

@@ -3,7 +3,7 @@ import { skillCategories, certifications } from '@/data';
 </script>
 
 <template>
-  <section id="skills" class="py-16 sm:py-20 px-6 border-t border-slate-800">
+  <section id="skills" class="my-16 sm:py-20 px-6 border-t border-slate-800">
     <h2 class="text-2xl sm:text-3xl font-bold text-color-text mb-8 sm:mb-12">Technical Skills & Expertise</h2>
     <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-6 sm:gap-8">
       <div v-for="(category, index) in skillCategories" :key="index" class="bg-slate-800/30 p-5 sm:p-6 rounded-xl border border-slate-700/50">

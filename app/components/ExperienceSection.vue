@@ -3,7 +3,7 @@ import { experiences } from '@/data';
 </script>
 
 <template>
-  <section id="experience" class="py-16 sm:py-20 px-6 border-t border-slate-800">
+  <section id="experience" class="my-16 sm:py-20 px-6 border-t border-slate-800 w-350 mx-auto">
     <h2 class="text-2xl sm:text-3xl font-bold text-color-text mb-8 sm:mb-12">Work Experience</h2>
     <div class="space-y-10 sm:space-y-12">
       <div v-for="(job, index) in experiences" :key="index" class="relative pl-6 sm:pl-8 border-l-2 border-slate-800 hover:border-primary transition">
