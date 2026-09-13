@@ -4,7 +4,7 @@
       <div class="inline-block px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium border border-primary">
         FullStack Developer
       </div>
-      <h1 class="text-3xl sm:text-4xl md:text-6xl font-extrabold text-white leading-tight">
+      <h1 class="text-3xl sm:text-4xl md:text-6xl font-extrabold text-color-text leading-tight">
         Building high-performance, pixel-perfect web experiences.
       </h1>
       <p class="text-text-sub text-base sm:text-lg leading-relaxed max-w-6xl mx-auto md:mx-0">

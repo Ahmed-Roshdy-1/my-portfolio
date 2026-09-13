@@ -12,7 +12,7 @@ function closeMenu() {
   <nav class="fixed top-0 left-0 right-0 z-50 bg-app-bg/80 backdrop-blur-md border-b border-slate-800">
     <div class="max-w-[1400px] mx-auto px-6 h-16 flex items-center justify-between">
       <!-- Logo -->
-      <nuxt-link to="/" class="text-xl font-bold text-primary">Ahmed Roshdy<span class="text-white">.dev</span></nuxt-link>
+      <nuxt-link to="/" class="text-xl font-bold text-primary">Ahmed Roshdy<span class="text-color-text">.dev</span></nuxt-link>
 
       <!-- Desktop Nav -->
       <div class="hidden md:flex space-x-8 text-sm font-medium text-slate-300">

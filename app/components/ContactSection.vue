@@ -95,7 +95,7 @@ async function copyPhone() {
       <!-- Header -->
       <div class="text-center mb-14">
         <p class="text-primary text-sm font-semibold tracking-widest uppercase mb-3">Contact</p>
-        <h2 class="text-3xl sm:text-4xl font-bold text-white mb-4">Let's Work Together</h2>
+        <h2 class="text-3xl sm:text-4xl font-bold text-color-text mb-4">Let's Work Together</h2>
         <p class="text-text-sub max-w-xl mx-auto text-sm sm:text-base leading-relaxed">
           I'm seeking roles where I can own UI features and deliver polished user experiences.
           Drop me a message and I usually respond within 24 hours.
@@ -117,7 +117,7 @@ async function copyPhone() {
             </div>
             <div class="min-w-0 flex-1">
               <p class="text-xs text-slate-500 mb-0.5">Email</p>
-              <p class="text-white text-sm font-medium break-all">ahmed.roshdy.web@gmail.com</p>
+              <p class="text-color-text text-sm font-medium break-all">ahmed.roshdy.web@gmail.com</p>
             </div>
             <!-- Copy feedback -->
             <div class="flex-shrink-0 ml-2">
@@ -139,7 +139,7 @@ async function copyPhone() {
             </div>
             <div class="min-w-0 flex-1">
               <p class="text-xs text-slate-500 mb-0.5">Phone / WhatsApp</p>
-              <p class="text-white text-sm font-medium">+201062240547</p>
+              <p class="text-color-text text-sm font-medium">+201062240547</p>
             </div>
             <div class="flex-shrink-0 ml-2">
               <transition name="fade-scale">
@@ -156,7 +156,7 @@ async function copyPhone() {
             </div>
             <div>
               <p class="text-xs text-slate-500 mb-0.5">Location</p>
-              <p class="text-white text-sm font-medium">Cairo, Egypt</p>
+              <p class="text-color-text text-sm font-medium">Cairo, Egypt</p>
             </div>
           </div>
 
@@ -186,7 +186,7 @@ async function copyPhone() {
                   type="text"
                   required
                   placeholder="Ahmed Roshdy"
-                  class="w-full bg-slate-900/20 border border-slate-700 text-white text-sm rounded-lg px-4 py-3 placeholder-slate-600 focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary/50 transition-all duration-200"
+                  class="w-full bg-slate-900/20 border border-slate-700 text-color-text text-sm rounded-lg px-4 py-3 placeholder-slate-600 focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary/50 transition-all duration-200"
                 />
               </div>
               <div>
@@ -197,7 +197,7 @@ async function copyPhone() {
                   type="email"
                   required
                   placeholder="you@example.com"
-                  class="w-full bg-slate-900/20 border border-slate-700 text-white text-sm rounded-lg px-4 py-3 placeholder-slate-600 focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary/50 transition-all duration-200"
+                  class="w-full bg-slate-900/20 border border-slate-700 text-color-text text-sm rounded-lg px-4 py-3 placeholder-slate-600 focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary/50 transition-all duration-200"
                 />
               </div>
             </div>
@@ -211,7 +211,7 @@ async function copyPhone() {
                 type="text"
                 required
                 placeholder="Frontend Role / Freelance Project / ..."
-                class="w-full bg-slate-900/20 border border-slate-700 text-white text-sm rounded-lg px-4 py-3 placeholder-slate-600 focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary/50 transition-all duration-200"
+                class="w-full bg-slate-900/20 border border-slate-700 text-color-text text-sm rounded-lg px-4 py-3 placeholder-slate-600 focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary/50 transition-all duration-200"
               />
             </div>
 
@@ -224,7 +224,7 @@ async function copyPhone() {
                 required
                 rows="5"
                 placeholder="Tell me about your project or opportunity..."
-                class="w-full bg-slate-900/20 border border-slate-700 text-white text-sm rounded-lg px-4 py-3 placeholder-slate-600 focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary/50 transition-all duration-200 resize-none"
+                class="w-full bg-slate-900/20 border border-slate-700 text-color-text text-sm rounded-lg px-4 py-3 placeholder-slate-600 focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary/50 transition-all duration-200 resize-none"
               ></textarea>
             </div>
 
