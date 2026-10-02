@@ -17,7 +17,7 @@ export const experiences = [
     company: 'MARSES Robotics',
     location: 'Cairo, Egypt',
     period: '08/2022 – 10/2024',
-    companyUrl: 'https://marsesrobotics.com',
+    companyUrl: 'https://www.marses-robotics.com/services-home',
     highlights: [
       'Developed web applications to control and monitor robotics systems with low-latency UI.',
       'Led front-end stack improvements using Vue 3 and Tailwind CSS to increase modularity and speed up development.',

@@ -1,12 +1,19 @@
 import { fileURLToPath } from "node:url";
+import tailwindcss from '@tailwindcss/vite'
+
 
 export default defineNuxtConfig({
   compatibilityDate: '2026-08-21',
   future: {
     compatibilityVersion: 4,
   },
-  modules: ['@nuxtjs/tailwindcss'],
   css: ['~/assets/css/main.css'],
+
+  vite: {
+    plugins: [
+      tailwindcss(),
+    ],
+  },
 
   // ─── EmailJS credentials (public = exposed to client-side) ───────────────
   runtimeConfig: {
